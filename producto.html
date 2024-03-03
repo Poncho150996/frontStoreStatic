@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnt Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Bloque de header -->
+    <header class="header">
+        <a href="index.html">
+            <!-- Elemento del bloque -->
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+            <!-- Fin elemento del bloque -->
+        </a>
+    </header>
+    <!-- FIn Bloque de header -->
+    
+    <!-- Bloque de navegacion -->
+    <nav class="navegacion">
+        <!-- .navegacion__enlace--activo es el modificador -->
+        <a class='navegacion__enlace' href="index.html">Tienda</a>
+        <a class='navegacion__enlace' href="nosotros.html">Nosotros</a>
+    </nav>
+    <!-- fin Bloque de navegacion -->
+    
+    <!-- Bloque main -->
+    <main class="contenedor">
+        <h1>REACT JS</h1>
+
+        <div class="productoindi">
+            <img class="productoindi__imagen" src="img/1.jpg" alt="Producto en cuestion">
+
+            <div class="datos">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae commodi vero, adipisci, corporis delectus numquam magni illo minima aut, maxime tempora tempore. Sed, veritatis. Unde molestias error dolores modi ad?</p>
+                <form class="formulario">
+                    <select class="formulario__campo" name="" id="">
+                        <option disabled selected>-- Seleccionar talla --</option>
+                        <option value="chica">Chica</option>
+                        <option value="mediana">Mediada</option>
+                        <option value="grande">Grande</option>
+                    </select>                    
+                    <input class="formulario__campo" type="number" placeholder="cantidad" min="1">
+                    <button class="formulario__submit">Agregar al carrito</button>
+                </form>
+            </div>
+
+        </div>
+
+    </main>
+    <!--Fin Bloque main -->
+
+    <!-- Bloque footer -->
+    <footer class="footer">
+        <!-- Elemento texto del footer -->
+        <p class="footer__texto">FrontEnd - Alfonso Todos los derechos reservados 2024</p>
+    </footer>
+    <!-- Fin bloque footer -->
+</body>
+</html>
